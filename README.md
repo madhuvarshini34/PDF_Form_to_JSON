@@ -32,7 +32,7 @@ This project is designed to extract **transaction details, checkbox selections, 
 │── 📜 checkbox_parser.py  # Detects and extracts ticked checkboxes
 │── 📜 pdf_extractor.py  # Handles PDF text extraction
 │── 📜 config.py         # Configurations (e.g., PDF file path)
-│── 📜 requirements.txt  # Dependencies
+│── 📜 Requirements.txt  # Dependencies
 │── 📜 README.md         # Project documentation
 ```
 
@@ -134,6 +134,20 @@ curl -X 'GET' 'http://127.0.0.1:8000/extract'
 |--------|----------|------------|
 | **GET** | `/extract` | Extracts text & checkbox selection from the PDF |
 
+---
+
+## **📜 Requirements.txt:**
+
+```
+fastapi             # Web framework for API
+uvicorn             # ASGI server for running FastAPI
+pymupdf             # PyMuPDF for PDF processing (imported as fitz)
+opencv-python       # Image processing for checkbox detection
+numpy               # Numerical operations for image processing
+pytesseract         # OCR tool for reading checkboxes
+pdfplumber          # Extracts text from PDFs
+pypdf2              # PDF manipulation (reading, extracting pages)
+```
 ---
 
 ## **📌 How It Works (Flow Diagram)**  
