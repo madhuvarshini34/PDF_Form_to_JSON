@@ -76,12 +76,14 @@ This project is designed to extract **transaction details, checkbox selections, 
 
  **Checkbox Parser:** The parser is hard-coded via a dictionary mapping each checkbox label to fixed (x, y) coordinates on the PDF.
 Any change in the PDF layout requires manually updating these coordinate values.
-``checkbox_labels = {
+```
+checkbox_labels = {
     "Lost": (200, 2640),
     "Stolen": (400, 2640),
     "In my possession": (600, 2640),
     "Never Received": (800, 2640)
-}``
+}
+```
 
 ---
 
