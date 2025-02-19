@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 ---
 
-## **🚀 Running the API**  
+### **🚀 Running the API**  
 ```bash
 uvicorn main:app --reload
 ```
@@ -129,7 +129,7 @@ curl -X 'GET' 'http://127.0.0.1:8000/extract'
 
 ---
 
-## **🛠 API Endpoints**  
+### **🛠 API Endpoints**  
 | Method | Endpoint | Description |
 |--------|----------|------------|
 | **GET** | `/extract` | Extracts text & checkbox selection from the PDF |
