@@ -1,8 +1,0 @@
-fastapi             # Web framework for API
-uvicorn             # ASGI server for running FastAPI
-pymupdf             # PyMuPDF for PDF processing (imported as fitz)
-opencv-python       # Image processing for checkbox detection
-numpy               # Numerical operations for image processing
-pytesseract         # OCR tool for reading checkboxes
-pdfplumber          # Extracts text from PDFs
-pypdf2              # PDF manipulation (reading, extracting pages)
