@@ -1,6 +1,6 @@
 # **PDF Checkbox & Text Extractor API**  
 
-🚀 **A FastAPI-based service that extracts text fields and ticked checkboxes from PDFs and returns structured JSON output.**  
+🚀 **A FastAPI-based service that extracts text fields and ticked checkboxes from PDFs and returns structured JSON output.** 🚀  
 
 ---
 
