@@ -59,7 +59,7 @@ This project is designed to extract **transaction details, checkbox selections, 
   - **Date of transaction**
   - **Merchant name**
   - **Ticked checkbox value**
-  - **User responses** (e.g., "Where do you store your PIN?")  
+  - **User responses** 
 
 ---
 
